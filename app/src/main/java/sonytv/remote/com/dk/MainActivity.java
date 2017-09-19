@@ -149,10 +149,11 @@ public class MainActivity extends FragmentActivity {
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
+
+        DiscoveryManager.getInstance().registerDefaultDeviceTypes();
+        DiscoveryManager.getInstance().setPairingLevel(DiscoveryManager.PairingLevel.ON);
+        DiscoveryManager.getInstance().start();
         setupPicker();
-//        DiscoveryManager.getInstance().registerDefaultDeviceTypes();
-//        DiscoveryManager.getInstance().setPairingLevel(DiscoveryManager.PairingLevel.ON);
-//        DiscoveryManager.getInstance().start();
    //     EPGApplication.testResponse = new TestResponseObject();
 
 
