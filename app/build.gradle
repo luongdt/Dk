@@ -26,8 +26,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
-    compile files('core/libs/java-websocket-patch.jar')
-    compile files('core/libs/javax.jmdns_3.4.1-patch2.jar')
+    compile files('libs/java-websocket-patch.jar')
+    compile files('libs/javax.jmdns_3.4.1-patch2.jar')
   //  compile 'com.google.android.gms:play-services-ads:10.2.6'
   //  compile 'com.connectsdk:connect-sdk-android:1.6.0'
   //  compile project(':connectSDKAndroidCore')

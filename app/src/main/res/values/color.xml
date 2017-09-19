@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- List live channel item -->
+    <color name="highlightEventLive">#FFFFFF</color>
+    <color name="eventLive">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkgray">#222222</color>
+    <color name="gray">#555555</color>
+    <color name="lightgray">#AAAAAA</color>
+    <color name="progressEPGEvent">#00B100</color>
+    <color name="red">#CC0000</color>
+    <color name="light_red">#FF0000</color>
+    <color name="dark_red">#AA0000</color>
+    <color name="orange">#FF6600</color>
+    <color name="fragment_background_color">#232425</color>
+    <color name="fragment_home_color">#09090A</color>
+    <color name="background_signon">#181818</color>
+
+    <!-- Preference -->
+    <color name="preference_title">#FFFFFF</color>
+    <color name="preference_summary">#CCCCCC</color>
+
+    <!-- Account Detail -->
+    <color name="title_color">#757575</color>
+    <color name="icon_color">#868686</color>
+    <color name="background_dialog_product">#1F1F1F</color>
+
+    <!-- Nagra colors -->
+    <color name="nagra_background">#E3E3E3</color>
+    <color name="nagra_menu_text">#9F9F9F</color>
+    <color name="nagra_main_title_text">#eb731f</color>
+    <color name="nagra_header_background">#0b2544</color>
+    <color name="nagra_button_background">#2f8ad1</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="background_dark_grey">#1A1A1A</color>
+    <color name="content_episode_overlay">#ffffffff</color>
+    <color name="vod_pressed">#CC33B5E5</color>
+    <color name="vod_mediaController_ads">#b2000000</color>
+    <color name="vod_mediaController_ads_pressed">#000000</color>
+    <color name="popup_title">#99FFFFFF</color>
+    <color name="popup_title_separator">#3ac2ea</color>
+    <color name="popup_item_separator">#3d3d3b</color>
+
+    <item name="state_default" type="color">@android:color/transparent</item>
+    <item name="state_focused" type="color">@color/state_pressed</item>
+
+    <color name="state_pressed">#ffefefef</color>
+    <color name="state_selected">#ffe7e7e7</color>
+    <color name="titleFocusedBlueColor">#003366</color>
+    <color name="titleNormalBlueColor">#52C7FE</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000</color>
+    <color name="redColor">#FF0033</color>
+    <color name="blueColor">#0000FF</color>
+    <color name="greenColor">#00FF00</color>
+    <color name="redblueColor">#FF00FF</color>
+    <color name="yellowColor">#FFC80F</color>
+
+    <!-- media controller colors -->
+    <color name="popup_ads">#DCDCDC</color>
+    <color name="popup_ads_pressed">#000000</color>
+    
+    <!-- EPG TV -->
+    <color name="epg_background">#ff1e1e1e</color>
+    <color name="epg_channel_layout_background">#ff323232</color>
+    <color name="epg_event_layout_background">#3d3d3d</color>
+    <color name="epg_event_layout_background_current">#b7591b</color>
+    <color name="epg_event_layout_background_future">#ff4f4f4f</color>
+    <color name="epg_event_layout_text">#ffd6d6d6</color>
+    <color name="epg_time_bar">#ffff00</color>
+
+    <!-- Spotlight -->
+    <color name="spotlight_description">#999</color>
+
+    <!-- Border button login -->
+    <color name="color_stroke_pressed">#FF0000</color>
+    <color name="color_gradient_pressed_start">#770000</color>
+    <color name="color_gradient_pressed_end">#EE0000</color>
+    <color name="color_stroke_focused">#5e7974</color>
+    <color name="color_solid_focused">#58857e</color>
+    <color name="color_gradient_start">#1f2123</color>
+    <color name="color_gradient_end">#111213</color>
+
+    <!-- Facebook button -->
+    <color name="color_facebook_background">#3964C7</color>
+
+    <!-- Border edittext -->
+    <color name="background_edittext">#353535</color>
+    <color name="edittext_hint">#999999</color>
+
+</resources>
